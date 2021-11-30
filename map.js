@@ -55,3 +55,5 @@ assertArraysEqual(results4,
     '5 * 2 is equal to 10'
   ]
 );
+
+module.exports = map;

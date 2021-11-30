@@ -29,3 +29,5 @@ findKey(object1, x => x.stars === 2);
 assertEqual(findKey(object1, x => x.stars === 2), "noma");
 assertEqual(findKey(object1, x => x.stars === 3), "Akaleri");
 assertEqual(findKey(object1, x => x.stars === 1), "Blue Hill");
+
+module.exports = findKey;
